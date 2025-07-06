@@ -2,24 +2,40 @@
     
     margin: 0;
 } */
-nav li{
+nav li {
     list-style: none;
     display: inline;
     margin-right: 15px;
 }
-nav li:hover{
+
+nav li:hover {
     background-color: red;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
-footer{
+
+footer,tfoot {
     text-align: center;
 }
-img{
+
+img {
     width: 250px;
 }
-form .basic-info label{
+
+form .basic-info label {
     display: block;
     margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 10px 20px;
 }
