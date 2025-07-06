@@ -1,0 +1,25 @@
+/* *{
+    
+    margin: 0;
+} */
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+nav li:hover{
+    background-color: red;
+}
+nav li a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+img{
+    width: 250px;
+}
+form .basic-info label{
+    display: block;
+    margin-top: 20px;
+}
