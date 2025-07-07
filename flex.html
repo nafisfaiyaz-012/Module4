@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .container div {
+            border: 2px solid tomato;
+            height: 50px;
+            width: 200px;
+            font-size: 3em;
+            /* margin-right: 10px; */
+        }
+
+        .box-container {
+            display: flex;
+            gap: 60px;
+        }
+
+        .box {
+            font-size: 3em;
+            height: 150px;
+            width: 150px;
+            border: 2px solid blue;
+        }
+        .user-container{
+            display: flex;
+            justify-content: space-around;
+            /* margin-top: 10px; */
+        }
+        .user {
+            border: 2px solid forestgreen;
+            height: 150px;
+            width: 150px;
+            font-size: 3em;
+            background-color: #cfa5a5;
+            /* margin-top: 10px; */
+
+        }
+        .container2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            /* justify-content: space-around; */
+        }
+        .user-container2{
+            border: 2px solid rebeccapurple;
+            background-color: aqua;
+            height: 150px;
+            width: 150px;
+            font-size: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    <div class="box-container">
+        <!-- .box{$}*6 -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="user-container">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+    </div>
+    <div class="container2">
+        <div class="user-container2">1</div>
+        <div class="user-container2">2</div>
+        <div class="user-container2">3</div>
+        <div class="user-container2">4</div>
+        <div class="user-container2">5</div>
+        <div class="user-container2">6</div>
+        <div class="user-container2">7</div>
+        <div class="user-container2">8</div>
+        <div class="user-container2">9</div>
+        <div class="user-container2">10</div>
+        <div class="user-container2">11</div>
+        <div class="user-container2">12</div>
+        <div class="user-container2">13</div>
+        <div class="user-container2">14</div>
+        <div class="user-container2">15</div>
+    </div>
+</body>
+
+</html>
