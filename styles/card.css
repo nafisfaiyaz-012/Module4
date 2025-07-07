@@ -1,0 +1,30 @@
+body{
+    max-width: 1270px;
+    background-color: #ca8d8d;
+    margin: 0 auto;
+}
+section{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    
+    width: 300px;
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px lightslategray;
+    background-color: rgb(198, 247, 247);
+    
+}
+.card h3,p{
+    font-size: 1.25em;
+    text-align: left;
+}
+.card-container img{
+    width: 100%;
+}
